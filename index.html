@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialFi Price Calculator</title>
+</head>
+<body>
+    <h1>SocialFi Price Calculator</h1>
+    
+    <label for="supply">Total Supply:</label>
+    <input type="number" id="supply" oninput="calculatePrices()">
+
+    <h2>Results</h2>
+
+    <p>FT Price: <span id="price1">0</span> <span>ETH</span></p>
+    <p>SA Price: <span id="price2">0</span> <span>AVAX</span></p>
+    <p>Tomo Price : <span id="price4">0</span> <span>ETH</span></p>
+    <p>NBC Price: <span id="priceV2">0</span> <span>BTC</span></p>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
